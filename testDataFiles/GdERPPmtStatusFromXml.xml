@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ns3:Entries xmlns:ns3="http://xmlns.modeln.com/ApplicationObjects/ManagedCareEstimatedFFSIFFAck/V1">
+  <ns3:ERPPayment ERPPaymentDate="2023-03-21" ERPPaymentMethod="Wire" ERPPaymentNumber="06425909559" ERPPaymentType="issued" ERPProcessDate="2023-03-21" MNPackageId="0135532-001" PaymentAmount="26.87|USD"/>
+</ns3:Entries>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Entries xmlns:ns2="http://xmlns.modeln.com/ApplicationObjects/MCDCheckAck/V1">
+    <mcdCheckAck PayNum="001136386-001" CheckGenerated="true" CheckNum="20230100" CheckDate="2023-09-01 00:00:00"/>
+</ns2:Entries>

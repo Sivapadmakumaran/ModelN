@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><imp1:Entries xmlns:imp1="http://xmlns.model.com/CustomerInterface">
+  <imp1:Organization EffectiveTimezoneID="America/Los_Angeles" FullName="McKesson Plasma and Biologics Sheperdsville KY jdkhc" MemberName="1056349">
+    <imp1:RelatedTo RelationType="PART_OF">
+      <imp1:Group MemberName="CUST-ORG"/>
+    </imp1:RelatedTo>
+    <imp1:Address AddrCity="Sheperdsville" AddrCountry="US" AddrFlags="PRIMARY_ADDRESS" AddrLine1="170 Clermont Road" AddrState="KY" AddrType="SHIP_TO" AddrZip="40165"/>
+    <imp1:MemberInfo Currency="USD" CustomerDomain="COM" CustomerFlags="ALLOWS_CONTRACTS" DynamicEntryType="CustomerInfo" InfoType="CustomerInfo.Independent" InternalSOR="true"/>
+    <imp1:OrganizationId EndDate="4700-12-31" Identifier="jx72miq39" Primary="true" StartDate="2023-06-22" Type="DEA"/>
+  </imp1:Organization>
+</imp1:Entries>

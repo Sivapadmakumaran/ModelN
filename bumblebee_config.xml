@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<bumblebee>
+<!-- URL of the Bumblebee Server -->
+    <bumblebee_url>http://fcloadctrprdn02.na.gilead.com:8080/bumblebee</bumblebee_url>
+    <!-- URL of HP ALM Server -->
+    <alm_url>http://sjetmapptstg01:8080/qcbin</alm_url>
+    <!-- Name of HP ALM User -->
+
+    <alm_user>test</alm_user>
+    <!-- Encrypted password: please use http://server_name:port/bumblebee/password/encrypt to encrypt your plain text password  -->
+    <alm_encrypted_pass></alm_encrypted_pass>
+
+    <!-- HP ALM Domain -->
+    <alm_domain>TEST</alm_domain>
+    <!-- HP ALM Project -->
+    <alm_project>EApprove_UAT</alm_project>
+	<update_testplan>true</update_testplan>
+    <!-- Asynchronous (offline) update -->
+    <async_update>false</async_update>
+	<screenshotOnFailure>true</screenshotOnFailure>
+</bumblebee>

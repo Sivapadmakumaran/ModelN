@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Entries xmlns="http://xmlns.modeln.com/ApplicationObjects/ManagedCareEstimatedFFSIFFAck/V1">
+    <ERPPayment PaymentAmount="3412406.19|USD" MNPackageId="0135449-001" ERPProcessDate="2023-08-30" ERPPaymentType="issued" ERPPaymentNumber="93408710707" ERPPaymentMethod="Check" ERPPaymentDate="2023-08-30"/>
+</Entries>

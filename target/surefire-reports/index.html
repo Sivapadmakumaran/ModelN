@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 7 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="CIAM_Login_SelfServiceFuctionality_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@51180d)">CIAM_Login_SelfServiceFuctionality_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@51180d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="ContentLibrary_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@90ba07)">ContentLibrary_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@90ba07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="EventsLandingPage_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@1e0c179)">EventsLandingPage_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@1e0c179)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="HomePage_PostLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@3f50e3)">HomePage_PostLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@3f50e3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="HomePage_PreLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1b204a1)">HomePage_PreLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1b204a1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="Therapy_Oncology(com.cognizant.framework.selenium.SeleniumTestParameters@11e5514)">Therapy_Oncology(com.cognizant.framework.selenium.SeleniumTestParameters@11e5514)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="Trodelvy_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1920fb0)">Trodelvy_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1920fb0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testscripts.Israel" hash-for-method="CIAM_Registration_Field_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@dd0fd7)">CIAM_Registration_Field_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@dd0fd7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testscripts.Israel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CIAM_Login_SelfServiceFuctionality_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@51180d)">
+                  </a> <!-- CIAM_Login_SelfServiceFuctionality_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@51180d) -->
+                  <span class="method-name">CIAM_Login_SelfServiceFuctionality_Validation</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@51180d)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.CIAM_Login_SelfServiceFuctionality_Validation(Israel.java:106)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContentLibrary_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@90ba07)">
+                  </a> <!-- ContentLibrary_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@90ba07) -->
+                  <span class="method-name">ContentLibrary_Desktop</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@90ba07)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Applitools Validation
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.ContentLibrary_Desktop(Israel.java:69)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EventsLandingPage_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@1e0c179)">
+                  </a> <!-- EventsLandingPage_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@1e0c179) -->
+                  <span class="method-name">EventsLandingPage_Validation</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@1e0c179)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Applitools Validation
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.EventsLandingPage_Validation(Israel.java:78)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_PostLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@3f50e3)">
+                  </a> <!-- HomePage_PostLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@3f50e3) -->
+                  <span class="method-name">HomePage_PostLogin_Desktop</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@3f50e3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Applitools Validation
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.HomePage_PostLogin_Desktop(Israel.java:51)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_PreLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1b204a1)">
+                  </a> <!-- HomePage_PreLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1b204a1) -->
+                  <span class="method-name">HomePage_PreLogin_Desktop</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@1b204a1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Applitools Validation
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.HomePage_PreLogin_Desktop(Israel.java:42)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Therapy_Oncology(com.cognizant.framework.selenium.SeleniumTestParameters@11e5514)">
+                  </a> <!-- Therapy_Oncology(com.cognizant.framework.selenium.SeleniumTestParameters@11e5514) -->
+                  <span class="method-name">Therapy_Oncology</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@11e5514)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Verify Navigation List Exist ; Error
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.Therapy_Oncology(Israel.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Trodelvy_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1920fb0)">
+                  </a> <!-- Trodelvy_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1920fb0) -->
+                  <span class="method-name">Trodelvy_Desktop</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@1920fb0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Verify Navigation List Exist ; Applitools Validation
+	at com.cognizant.craft.CRAFTTestCase.tearDownTestRunner(CRAFTTestCase.java:115)
+	at testscripts.Israel.Trodelvy_Desktop(Israel.java:88)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.Israel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CIAM_Registration_Field_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@dd0fd7)">
+                  </a> <!-- CIAM_Registration_Field_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@dd0fd7) -->
+                  <span class="method-name">CIAM_Registration_Field_Validation</span>
+                  <span class="parameters">(com.cognizant.framework.selenium.SeleniumTestParameters@dd0fd7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.Israel&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Trodelvy_Desktop')
+data.setCell(0, 2, 'testscripts.Israel')
+data.setCell(0, 3, 465174);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CIAM_Registration_Field_Validation')
+data.setCell(1, 2, 'testscripts.Israel')
+data.setCell(1, 3, 363900);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HomePage_PostLogin_Desktop')
+data.setCell(2, 2, 'testscripts.Israel')
+data.setCell(2, 3, 304904);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomePage_PreLogin_Desktop')
+data.setCell(3, 2, 'testscripts.Israel')
+data.setCell(3, 3, 129735);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ContentLibrary_Desktop')
+data.setCell(4, 2, 'testscripts.Israel')
+data.setCell(4, 3, 127838);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Therapy_Oncology')
+data.setCell(5, 2, 'testscripts.Israel')
+data.setCell(5, 3, 124212);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CIAM_Login_SelfServiceFuctionality_Validation')
+data.setCell(6, 2, 'testscripts.Israel')
+data.setCell(6, 3, 123902);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'EventsLandingPage_Validation')
+data.setCell(7, 2, 'testscripts.Israel')
+data.setCell(7, 3, 60556);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.Israel</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpTestSuite(org.testng.TestRunner@13aa6d3)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">2081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_PreLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1b204a1)</span>
+                <span class="method-start">2081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">131862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_PostLogin_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@3f50e3)</span>
+                <span class="method-start">131862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">436769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Therapy_Oncology(com.cognizant.framework.selenium.SeleniumTestParameters@11e5514)</span>
+                <span class="method-start">436769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">560983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ContentLibrary_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@90ba07)</span>
+                <span class="method-start">560983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">688823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EventsLandingPage_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@1e0c179)</span>
+                <span class="method-start">688823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">749381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Trodelvy_Desktop(com.cognizant.framework.selenium.SeleniumTestParameters@1920fb0)</span>
+                <span class="method-start">749381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">1214557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CIAM_Registration_Field_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@dd0fd7)</span>
+                <span class="method-start">1214557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">1578457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CIAM_Login_SelfServiceFuctionality_Validation(com.cognizant.framework.selenium.SeleniumTestParameters@51180d)</span>
+                <span class="method-start">1578457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownTestSuite</span>
+                <span class="method-start">1702510 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

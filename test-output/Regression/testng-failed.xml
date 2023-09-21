@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Test for Login Scenario(failed)">
+    <classes>
+      <class name="testscripts.Search">
+        <methods>
+          <include name="tearDownTestSuite"/>
+          <include name="setUpTestRunner"/>
+          <include name="setUpTestSuite"/>
+          <include name="searchByFilter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testscripts.Search -->
+    </classes>
+  </test> <!-- Test for Login Scenario(failed) -->
+</suite> <!-- Failed suite [Regression] -->

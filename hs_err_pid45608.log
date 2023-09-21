@@ -1,0 +1,139 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 480104 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=45608, tid=0x000000000000b210
+#
+# JRE version:  (8.0_331-b09) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.331-b09 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000019a3db33000):  JavaThread "Unknown thread" [_thread_in_vm, id=45584, stack(0x0000002f6f200000,0x0000002f6f300000)]
+
+Stack: [0x0000002f6f200000,0x0000002f6f300000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x32fc49]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000019a3db33000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=45584, stack(0x0000002f6f200000,0x0000002f6f300000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000006c0000000, size: 4096 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff609da0000 - 0x00007ff609de7000 	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe
+0x00007ffc71140000 - 0x00007ffc71330000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffc70280000 - 0x00007ffc70332000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffc6e6a0000 - 0x00007ffc6e945000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffc706e0000 - 0x00007ffc70783000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffc70f10000 - 0x00007ffc70fae000 	C:\Windows\System32\msvcrt.dll
+0x00007ffc6fab0000 - 0x00007ffc6fb47000 	C:\Windows\System32\sechost.dll
+0x00007ffc70790000 - 0x00007ffc708b0000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffc70d30000 - 0x00007ffc70ec4000 	C:\Windows\System32\USER32.dll
+0x00007ffc6f1c0000 - 0x00007ffc6f1e1000 	C:\Windows\System32\win32u.dll
+0x00007ffc70ed0000 - 0x00007ffc70ef6000 	C:\Windows\System32\GDI32.dll
+0x00007ffc6e2f0000 - 0x00007ffc6e486000 	C:\Windows\System32\gdi32full.dll
+0x00007ffc6e490000 - 0x00007ffc6e52e000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffc6e0c0000 - 0x00007ffc6e1ba000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffc59810000 - 0x00007ffc59a94000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.1198_none_9e820b57e45ad92f\COMCTL32.dll
+0x00007ffc70920000 - 0x00007ffc70c55000 	C:\Windows\System32\combase.dll
+0x00007ffc6e950000 - 0x00007ffc6e9d0000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffc703a0000 - 0x00007ffc703ce000 	C:\Windows\System32\IMM32.DLL
+0x00007ffc6ddf0000 - 0x00007ffc6de27000 	C:\Program Files\Citrix\HDX\bin\MfApHook.dll
+0x00007ffc6ddd0000 - 0x00007ffc6dde2000 	C:\Program Files\Citrix\HDX\bin\FullScreenHook.dll
+0x00007ffc6dd40000 - 0x00007ffc6ddcd000 	C:\Windows\SYSTEM32\MSVCP140.dll
+0x00007ffc6dd20000 - 0x00007ffc6dd3a000 	C:\Windows\SYSTEM32\VCRUNTIME140.dll
+0x00007ffc6dd10000 - 0x00007ffc6dd1c000 	C:\Windows\SYSTEM32\VCRUNTIME140_1.dll
+0x00007ffc6d8b0000 - 0x00007ffc6d8da000 	C:\Program Files\Citrix\HDX\bin\ShellHook.dll
+0x00007ffc70340000 - 0x00007ffc70392000 	C:\Windows\System32\SHLWAPI.dll
+0x00007ffc6db30000 - 0x00007ffc6dc3f000 	C:\Program Files\Citrix\HDX\bin\SCardHook.dll
+0x00007ffc6d630000 - 0x00007ffc6d650000 	C:\Program Files\Citrix\HDX\bin\CxInjIme.dll
+0x00007ffc63ad0000 - 0x00007ffc63ae5000 	C:\Program Files\Java\jre1.8.0_331\bin\vcruntime140.dll
+0x00007ffc4bc50000 - 0x00007ffc4bceb000 	C:\Program Files\Java\jre1.8.0_331\bin\msvcp140.dll
+0x0000000067eb0000 - 0x0000000068711000 	C:\Program Files\Java\jre1.8.0_331\bin\server\jvm.dll
+0x00007ffc706c0000 - 0x00007ffc706c8000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffc60c40000 - 0x00007ffc60c49000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffc708b0000 - 0x00007ffc7091f000 	C:\Windows\System32\WS2_32.dll
+0x00007ffc6ab70000 - 0x00007ffc6ab94000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffc6dc50000 - 0x00007ffc6dc5a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffc6ab40000 - 0x00007ffc6ab6d000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffc6e2a0000 - 0x00007ffc6e2ea000 	C:\Windows\System32\cfgmgr32.dll
+0x00007ffc6e0a0000 - 0x00007ffc6e0b1000 	C:\Windows\System32\kernel.appcore.dll
+0x00007ffc63d90000 - 0x00007ffc63da0000 	C:\Program Files\Java\jre1.8.0_331\bin\verify.dll
+0x00007ffc4cab0000 - 0x00007ffc4cadb000 	C:\Program Files\Java\jre1.8.0_331\bin\java.dll
+0x00007ffc62250000 - 0x00007ffc62268000 	C:\Program Files\Java\jre1.8.0_331\bin\zip.dll
+0x00007ffc6c020000 - 0x00007ffc6c214000 	C:\Windows\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+java_command: allocator.QcTestRunner C:\Users\svelu\AppData\Local\Temp\Run_mm-dd-yyyy_hh-mm-ss_XX\VerifyAddExportTransferPurgeComments_1 UserRoles VerifyAddExportTransferPurgeComments Instance1 SKIP
+java_class_path (initial): .;.\target\test-classes\;.\target\libs\animal-sniffer-annotations-1.14.jar;.\target\libs\asm-7.1.jar;.\target\libs\aspectjweaver-1.9.4.jar;.\target\libs\assertj-core-1.5.0.jar;.\target\libs\automation-0.1.3.jar;.\target\libs\bcpkix-jdk15on-1.48.jar;.\target\libs\bcprov-jdk15on-1.48.jar;.\target\libs\bsh-2.0b6.jar;.\target\libs\bson-3.3.0.jar;.\target\libs\byte-buddy-1.8.15.jar;.\target\libs\cglib-3.2.12.jar;.\target\libs\checker-compat-qual-2.0.0.jar;.\target\libs\commons-beanutils-1.9.2.jar;.\target\libs\commons-codec-1.11.jar;.\target\libs\commons-collections-3.2.2.jar;.\target\libs\commons-collections4-4.1.jar;.\target\libs\commons-compress-1.21.jar;.\target\libs\commons-digester-1.8.1.jar;.\target\libs\commons-exec-1.3.jar;.\target\libs\commons-io-2.6.jar;.\target\libs\commons-lang3-3.7.jar;.\target\libs\commons-logging-1.2.jar;.\target\libs\commons-validator-1.6.jar;.\target\libs\cucumber-extentsreport-3.1.0.jar;.\target\libs\curvesapi-1.04.jar;.\target\libs\dec-0.1.2.jar;.\target\libs\decrypter-1.0.jar;.\target\libs\docker-java-3.2.14.jar;.\target\libs\docker-java-api-3.2.14.jar;.\target\libs\docker-java-core-3.2.14.jar;.\target\libs\docker-java-transport-3.2.14.jar;.\target\libs\docker-java-transport-httpclient5-3.2.14.jar;.\target\libs\error_prone_annotations-2.1.3.jar;.\target\libs\extentreports-3.1.1.jar;.\target\libs\freemarker-2.3.23.jar;.\target\libs\groovy-2.4.15.jar;.\target\libs\groovy-json-2.4.15.jar;.\target\libs\groovy-xml-2.4.15.jar;.\target\libs\gson-2.8.5.jar;.\target\libs\guava-25.0-jre.jar;.\target\libs\hamcrest-core-1.3.jar;.\target\libs\hamcrest-library-1.3.jar;.\target\libs\httpclient-4.5.6.jar;.\target\libs\httpclient5-5.2.1.jar;.\target\libs\httpcore-4.4.10.jar;.\target\libs\httpcore5-5.2.jar;.\target\libs\httpcore5-h2-5.2.jar;.\target\libs\httpmime-4.5.6.jar;.\target\libs\j2objc-annotations-1.1.jar;.\target\libs\jackson-annotations-2.10.3.jar;.\target\libs\jackson-core-2.10.3.jar;.\target\libs\jackson-databi
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Citrix\HDX\bin\;C:\Program Files\Citrix\HDX\bin\;C:\Program Files\Maven\apache-maven-3.8.8\bin;C:\Users\svelu\AppData\Local\Microsoft\WindowsApps;
+USERNAME=svelu
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 45 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 18362 (10.0.18362.1110)
+
+CPU:total 2 (initial active 2) (1 cores per cpu, 1 threads per core) family 6 model 45 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 16776624k(3065456k free), swap 20970928k(5120k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.331-b09) for windows-amd64 JRE (1.8.0_331-b09), built on Mar 10 2022 03:14:38 by "java_re" with MS VC++ 15.9 (VS2017)
+
+time: Sun Apr 30 19:54:36 2023
+timezone: India Standard Time
+elapsed time: 0.027209 seconds (0d 0h 0m 0s)
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2618741" started-at="2023-09-20T18:06:11 IST" finished-at="2023-09-20T18:49:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2618741" started-at="2023-09-20T18:06:11 IST" finished-at="2023-09-20T18:49:50 IST">
+      <class name="testscripts.InstRebate">
+        <test-method status="PASS" signature="setUpTestSuite(org.testng.ITestContext)[pri:0, instance:testscripts.InstRebate@2473b9ce]" name="setUpTestSuite" is-config="true" duration-ms="1252" started-at="2023-09-20T18:06:10 IST" finished-at="2023-09-20T18:06:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13575182]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestSuite -->
+        <test-method status="PASS" signature="tC_InstRebates_E2E(com.cognizant.framework.selenium.SeleniumTestParameters)[pri:0, instance:testscripts.InstRebate@2473b9ce]" name="tC_InstRebates_E2E" duration-ms="2618428" started-at="2023-09-20T18:06:12 IST" data-provider="DesktopBrowsers" finished-at="2023-09-20T18:49:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.cognizant.framework.selenium.SeleniumTestParameters@515aebb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_InstRebates_E2E -->
+        <test-method status="PASS" signature="setUpTestRunner()[pri:0, instance:testscripts.InstRebate@2473b9ce]" name="setUpTestRunner" is-config="true" duration-ms="0" started-at="2023-09-20T18:06:12 IST" finished-at="2023-09-20T18:06:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestRunner -->
+        <test-method status="PASS" signature="tearDownTestSuite()[pri:0, instance:testscripts.InstRebate@2473b9ce]" name="tearDownTestSuite" is-config="true" duration-ms="2148" started-at="2023-09-20T18:49:50 IST" finished-at="2023-09-20T18:49:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestSuite -->
+      </class> <!-- testscripts.InstRebate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

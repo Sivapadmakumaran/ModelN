@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entries>
+
+<Category Flags="0" Name="HIV TA" ProductNum="HIV TA">
+  <Field Name="productNum" Type="java.lang.String" Value="HIV TA"/>
+  <Field Name="type" Type="java.lang.String" Value="Category"/>
+  <Field Name="description" Type="java.lang.String" Value="HIV TA"/>
+  <Field Name="longDescription" Type="java.lang.String" Value="HIV TA"/>
+  <Field Name="name" Type="java.lang.String" Value="HIV TA"/>
+  <AssociatedToOrg Name="Root"/>
+
+<Category Flags="0" Name="SUNLENCA" ProductNum="SUNLENCA">
+    <Field Name="productNum" Type="java.lang.String" Value="SUNLENCA"/>
+    <Field Name="type" Type="java.lang.String" Value="Category"/>
+    <Field Name="description" Type="java.lang.String" Value="SUNLENCA"/>
+    <Field Name="longDescription" Type="java.lang.String" Value="SUNLENCA"/>
+    <Field Name="name" Type="java.lang.String" Value="SUNLENCA"/>
+    <AssociatedToOrg Name="Root"/>
+    
+    <Category Flags="0" NDC="619582978" Name="SUNLENCA (309 MG/ML) VIALS KIT" Ndc9Flag="true" ProductNum="619582978">
+      <Field Name="productNum" Type="java.lang.String" Value="619582978"/>
+      <Field Name="type" Type="java.lang.String" Value="Category"/>
+      <Field Name="description" Type="java.lang.String" Value="SUNLENCA (309 MG/ML) VIALS KIT"/>
+      <Field Name="longDescription" Type="java.lang.String" Value="SUNLENCA (309 MG/ML) VIALS KIT"/>
+      <Field Name="name" Type="java.lang.String" Value="SUNLENCA (309 MG/ML) VIALS KIT"/>
+      <AssociatedToOrg Name="Root"/>
+      
+      <MapItem ACABaselineAMP="" CoveredOutpatientDrugStatus="New Drug Application" Description="SUNLENCA (lenacapavir) Injection, 463.5 mg/1.5 mL (309 mg/mL), 2 Vl Kit" DrugCategory="S" EligibleForASP="true" EligibleForMedicaid="true" EligibleForPHS="true" EligibleForVA="true" FdaApplicationNumber="0215973" FdaApplicationNumber1="" FdaApplicationNumber2="" FdaApplicationSupplementNumber="" FdaApplicationSupplementNumber1="" FdaApplicationSupplementNumber2="" FdaApprovalType="NDA" FdaDescriptionOfApprovalType="New Drug Application" FirstSalesDate="2023-01-11 00:00:00" Flags="0" GlAccountCode="21505" Is5iDrug="true" LegalEntityID="1010" ManuTermDate="" MarketEntryDate="2023-02-11 00:00:00" MedicaidUnitsPerPack="3" NDC="61958297814" Name="SUNLENCA (lenacapavir) Injection, 463.5 mg/1.5 mL (309 mg/mL), 2 Vl Kit" Ndc9Flag="false" NonCmtyPharmaDrug="true" PackageSizeIntroDate="2023-02-11 00:00:00" ProductNum="61958297814" PurchaseProductDate="" RouteOf5iAdministration="INJECTED" ShelfLifeExpDate="" SpecialItemNumber="42-2A" TheraCode="NR"> 
+              <Field Name="productNum" Type="java.lang.String" Value="61958297814"/>
+              <Field Name="description" Type="java.lang.String" Value="SUNLENCA (lenacapavir) Injection, 463.5 mg/1.5 mL (309 mg/mL), 2 Vl Kit"/>
+              <Field Name="longDescription" Type="java.lang.String" Value="SUNLENCA (lenacapavir) Injection, 463.5 mg/1.5 mL (309 mg/mL), 2 Vl Kit"/>
+              <Field Name="type" Type="java.lang.String" Value="Item"/>
+              <Field Name="labelerCode" Type="java.lang.String" Value="61958"/>
+              <Field Name="ndc9Code" Type="java.lang.String" Value="619582978"/>
+              <Field Name="ndc11Code" Type="java.lang.String" Value="61958297814"/>        
+              <Field Name="sku" Type="java.lang.String" Value="61958297814"/>
+              <Field Name="packageSize" Type="java.lang.String" Value="1"/>
+              <Field Name="drugType" Type="java.lang.String" Value="RX"/>
+              <Field Name="desiIndicator" Type="com.modeln.bp.catalog.CMnDesiDrugIndicator" Value="2"/>
+              <Field Name="fdaRegName" Type="java.lang.String" Value="SUNLENCA (lenacapavir) Injection, 463.5 mg/1.5 mL (309 mg/mL), 2 Vl Kit"/>
+              <Field Name="fdaApprovalDate" Type="java.lang.String" Value="2022-12-22"/> 
+              <Field Name="dosageForm" Type="java.lang.String" Value="ML"/>
+              <Field Name="medicaidUnitType" Type="java.lang.String" Value="ML"/>
+              <Field Name="prodStrength" Type="java.lang.String" Value="463.5 mg/1.5 mL (309 mg/mL)"/>
+              <Field Name="tradeName" Type="java.lang.String" Value="SUNLENCA (lenacapavir) Injection, 463.5 mg/1.5 mL (309 mg/mL), 2 Vl Kit"/>
+              <Field Name="genericName" Type="java.lang.String" Value="lenacapavir Injection, 463.5 mg/1.5 mL (309 mg/mL, 2 Vl Kit)"/> 
+              <AssociatedToOrg Name="Root"/>
+      </MapItem>
+    </Category>
+    
+</Category>
+
+</Category>
+
+</Entries>

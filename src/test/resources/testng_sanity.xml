@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity" parallel="methods" data-provider-thread-count="1" >	
+	<test name="Test for Mobile">
+		<classes>
+			<class name="testscripts.ModelNAutomationscripts">
+				<methods>
+				<include name="tC_Medicaid_URM009_URM004"></include>
+				<include name="tC_GPETEFlowForAMPPriceType"></include>
+				
+				</methods>
+			</class>
+			<class name="testscripts.Contract">
+				<methods>
+				<include name="tC_Contract_E2E"></include>
+				
+				</methods>
+			</class>
+			
+			<class name="testscripts.Medicaid">
+				<methods>
+				<include name="tC_MedicaidETEProcessFlow"></include>
+				
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
